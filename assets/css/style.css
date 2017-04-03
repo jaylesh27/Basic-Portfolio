@@ -17,6 +17,7 @@ h1 {
 	height: 65px;
 	margin: 0;
 	padding-top: 25px;
+	font-size: 30px;
 }
 
 
@@ -24,6 +25,8 @@ h1 {
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+	font-size: 24px;
+	padding-top: 25px;
 }
 
 
@@ -41,19 +44,21 @@ h2 {
 }
 
 #html-links {
-	float: right;
 	word-spacing: 30px;
-	position: relative;
-	top: 20px;
-	right: 200px;
+	position: absolute;
+	top: 35px;
+	right: 160px;
 	font-size: 20px;
 }
 
 
+.container {
+	width: 960px;
+}
 
 
 #about-me {
-	width: 585px;
+	width: 586px;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-color: #dddddd;
@@ -64,11 +69,14 @@ h2 {
 	position: absolute;
 	left: 160px;
 	top: 130px;
-	margin: 0;
+	padding-bottom: 25px;
 }
 
 #connect {
-	margin-right: 40px;
+	clear: both;
+	width: 226px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: #ffffff;
 	position: absolute;
 	right: 160px;
@@ -76,7 +84,7 @@ h2 {
 	border-color: #dddddd;
 	border-style: solid;
 	border-width: 2px;
-	padding: 15px;
+	padding-bottom: 25px;
 }
 
 
@@ -111,17 +119,17 @@ a {
 	left: 0;
   	bottom: 0;	
 	background-color: #666666;
-	padding-top: 20px;
-  	padding-bottom: 20px;
+	padding-top: 35px;
+  	padding-bottom: 35px;
   	text-align: center;
   	width: 100%;
   	border-top-color: #4aaaa5;
   	border-top-style: solid;
-  	border-top-width: thick:
+  	border-top-width: 5px:
 }
 
 #portfolio-section {
-	width: 585px;
+	width: 586px;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-color: #dddddd;
@@ -129,10 +137,10 @@ a {
 	border-width: 2px;
 	float: left;
 	background-color: #ffffff;
-	position: relative;
+	position: absolute;
 	left: 160px;
 	top: 130px;
-	margin: 0;
+	padding-bottom: 25px;
 }
 
 #image1 {
@@ -156,7 +164,7 @@ a {
 #image2 {
 	position: absolute;
 	left: 260px;
-	top: 95px;
+	top: 83px;
 	width: 235px;
 	height: 175px;
 	margin-left: 60px;
@@ -197,7 +205,7 @@ a {
 #image4 {
 	position: absolute;
 	left: 260px;
-	top: 320px;
+	top: 300px;
 	width: 235px;
 	height: 175px;
 	margin-left: 60px;
@@ -225,7 +233,7 @@ a {
 #rock {
 	position: absolute;
 	left: 30px;
-	top: 650px;
+	top: 630px;
     background-color: #4aaaa5;
     padding: 10px;
     width: 215px;
@@ -234,10 +242,8 @@ a {
 }
 
 
-
-
 #contact-form {
-	width: 585px;
+	width: 586px;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-color: #dddddd;
@@ -248,7 +254,7 @@ a {
 	position: absolute;
 	left: 160px;
 	top: 130px;
-	margin: 0;
+	padding-bottom: 25px;
 
 }
 
